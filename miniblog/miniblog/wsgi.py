@@ -8,15 +8,9 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
 """
 
 import os
-import sys
-
-path = '\Django_Projects\miniblog\miniblog'
-if path not in sys.path:
-    sys.path.append(path)
-
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'miniblog.settings')
-
-os.environ['DJANGO_SETTINGS_MODULE'] = 'miniblog.settings'
 
 from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'miniblog.settings')
+
 application = get_wsgi_application()
