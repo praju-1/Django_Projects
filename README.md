@@ -5,4 +5,4 @@ Each project is contained within its own directory. Below are brief descriptions
 
 # Project 1: Mini Blog
 
-Will update soon
+MiniBlog is a simple blogging platform built using the Django framework. It allows users to log in, create, edit, and update blog content. This project is designed to demonstrate basic CRUD (Create, Read, Update, Delete) functionality and user authentication in a web application.
